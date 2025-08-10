@@ -1,5 +1,12 @@
 import iphone1 from "@/assets/products/iphone-1.jpg";
 import iphone2 from "@/assets/products/iphone-2.jpg";
+import earbuds2 from "/public/earbuds-3.jpg";
+import speaker from "/public/speaker.jpg";
+import earbuds from "/public/earbuds-7.jpg";
+import microphone from "/public/microphone.jpg";
+import cameraStand from "/public/camera-stand.jpg";
+
+
 
 export type Product = {
   id: string;
@@ -30,7 +37,7 @@ export const products: Product[] = [
     shortDescription: "Experience clear, powerful sound with the GEEOO T2 True Wireless Earbuds, built for performance and convenience. Featuring a digital battery display, you can easily monitor the charge status of both earbuds and the case.",
     longDescription:
       "🎧 Key Features: ✅ Bluetooth 5.3 – Stable connection with up to 10m range.✅ Digital Battery Display – Real-time power status for both earbuds and case. ✅ 13mm Drivers – Delivers rich, immersive sound. ✅ Touch Controls – Manage calls, volume, and music with a tap. ✅ IPX4 Waterproof – Sweat and splash-resistant, ideal for workouts. ✅ Long Battery Life – Up to 6 hours playback Plus 20 Plus hours with case. ✅ Fast Charging – Earbuds charge in 1 hour; case in 1.5–2 hours. ✅ Crystal Clear Calls – Built-in mic with -42±3dB sensitivity. 🔖 Perfect for Everyday Use. Whether you're at the gym, commuting, or relaxing, the GEEOO T2 offers style, comfort, and performance in one compact package.",
-    images: ["/public/earbuds-3.jpg"],
+    images: [earbuds2],
   },
   {
     id: "speaker",
@@ -40,7 +47,7 @@ export const products: Product[] = [
     shortDescription: "This portable Bluetooth speaker is designed for PC, mobile phone, and party use, offering versatile audio options for different occasions. Perfect for both outdoor gatherings and indoor entertainment, it adds a lively atmosphere to any occasion, elevating the overall experience. ",
     longDescription:
       "The Music Sound Column is a versatile Bluetooth speaker suitable for PC, mobile phones, and parties. This wireless speaker delivers high-quality sound, making it perfect for enhancing your audio experience. Its portable design makes it ideal for on-the-go use or as a stationary speaker for your entertainment setup. Whether you're hosting a gathering or simply enjoying your favorite tunes, this speaker provides a seamless and immersive listening experience. It is compatible with various devices and is designed to elevate your sound experience, making it a great addition to any occasion or setup. With its sleek and modern design, it adds a touch of style to any environment, ensuring both functionality and aesthetics. Whether you're at home, outdoors, or on the move, this Bluetooth speaker is your reliable companion for exceptional sound quality and convenience. It also features a long-lasting battery life, ensuring uninterrupted music enjoyment for extended periods. Its easy connectivity and user-friendly controls make it a hassle-free choice for all your audio needs. With its durable build and impressive sound performance, the Music Sound Column is the perfect choice for music enthusiasts and party hosts alike, providing an immersive and enjoyable sound experience for all occasions.",
-    images: ["/public/speaker.jpg"],
+    images: [speaker],
   },
   {
     id: "earbuds-7",
@@ -50,7 +57,7 @@ export const products: Product[] = [
     shortDescription: "Active noise cancellation for immersive sound. Transparency mode for hearing and connecting with the world around you.Three sizes of soft, tapered silicone tips for a customizable fit. ",
     longDescription:
       "Sweat and water resistant. Adaptive EQ automatically tunes music to the shape of your ear. Easy setup for all your Apple devices. Quick access to Siri by saying “Hey Siri”. The Wireless Charging Case delivers more than 24 hours of battery life. ",
-    images: ["/public/earbuds-7.jpg"],
+    images: [earbuds],
   },
   {
     id: "microphone",
@@ -60,7 +67,7 @@ export const products: Product[] = [
     shortDescription: "Easy to plug and play. 48kHz intelligent noise reduction. Automatic real-time synchronization with no delay. Mini, Portable, Durable. Suitable for more scenarios.",
     longDescription:
       "F15-2-2N1 Wireless Collar Microphone Professional Noise Reduction Wireless Microphones. Mini microphone for iPhone and Android has an Import DSP High-end noise reduction chip, intelligent noise reduction, and omnidirectional clear pickup. New intelligent frequency conversion noise reduction can intelligent identification of different noise environments, filtering noise clearer human voice, and provides more vivid, soft, natural and stereo sound around for recording or real time video . Plug and Play & Free Your Hands Completely. new upgrade wireless concept wireless live recording lavalier microphone, simply plug the receiver into your smartphone, turn on the high-sensitivity microphone, and it will automatically connect and start working. The wireless microphones can also real-time adjustments while recording and listening, plug and play. Lapel microphone wireless f provides efficiency and convenience for content creators’ video recording/sound collection.",
-    images: ["/public/microphone.jpg"],
+    images: [microphone],
   },
   {
     id: "camera-stand",
@@ -70,7 +77,7 @@ export const products: Product[] = [
     shortDescription: "আপনার ভিডিও ও কনটেন্ট এখন হবে আরও স্মার্ট ও প্রফেশনাল! 🔥",
     longDescription:
       " 360 degree auto tracking, স্ট্যাবিলাইজার ফিচার – ভিডিও হবে ঝাঁকুনিহীন, 1.8 মিটার পর্যন্ত এক্সটেন্ড,  ওয়ান-ক্লিক অপেন সিস্টেম,মোবাইল, Vlog, TikTok, YouTube সব কাজে পারফেক্ট, হালকা ও পোর্টেবল – ক্যারি করতে সহজ.প্যাকেজে থাকছে: Q185 Gimbal Selfie Stick, চার্জিং কেবল, ইউজার ম্যানুয়াল.  ",
-    images: ["/public/camera-stand.jpg"],
+    images: [cameraStand],
   },
   {
     id: "p-re-nyo60",
