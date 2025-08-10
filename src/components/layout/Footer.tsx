@@ -9,8 +9,7 @@ const Footer = () => {
         <div>
           <h4 className="font-medium mb-2">Support</h4>
           <ul className="space-y-1 text-sm text-muted-foreground">
-            <li>Hotline: +880-01XXXXXXXXX</li>
-            <li>Email: support@mobileduniya.example</li>
+            <li>Hotline: +880 1818-622069</li>
           </ul>
         </div>
         <div>

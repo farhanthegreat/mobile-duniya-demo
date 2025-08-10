@@ -19,10 +19,10 @@ const Header = () => {
             মোবাইল দুনিয়া
           </Link>
           <nav className="hidden md:flex items-center gap-1">
-            <NavLink to="/" className={navLinkClass} end>Home</NavLink>
-            <NavLink to="/shop" className={navLinkClass}>Shop</NavLink>
-            <NavLink to="/about" className={navLinkClass}>About Us</NavLink>
-            <NavLink to="/contact" className={navLinkClass}>Contact</NavLink>
+            <NavLink to="/" className={navLinkClass} end>হোম</NavLink>
+            <NavLink to="/shop" className={navLinkClass}>শপ</NavLink>
+            <NavLink to="/about" className={navLinkClass}>আমাদের সম্পর্কে</NavLink>
+            <NavLink to="/contact" className={navLinkClass}>যোগাযোগ</NavLink>
           </nav>
         </div>
         <div className="flex items-center gap-3">
